@@ -1,0 +1,12 @@
+div{
+    background-color:rgb(9, 199, 246) ;
+    height: 100vh;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+p{
+    font-size: 50px;
+    font-style: italic;
+}

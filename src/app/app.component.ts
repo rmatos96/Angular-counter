@@ -6,5 +6,13 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'atividade3';
+  numero: number=0;
+
+  aumentar(){
+    this.numero++
+  }
+
+  abaixar(){
+    this.numero--
+  }
 }
